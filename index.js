@@ -1,9 +1,9 @@
 // Write your solution in this file!
 const driver= {name:'sam'}
 
-function updateDriverWithKeyAndValue(driver, key, value)
-{
-  let newdriver = object.assign({},driver,{[key]:value})
+function updateDriverWithKeyAndValue(driver,key,value){
   
-  return newdriver;
+ let Ndriver = Object.assign({},driver,{[key]:value})
+return Ndriver
+  
 }
